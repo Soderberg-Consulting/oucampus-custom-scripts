@@ -1,10 +1,10 @@
 /*==========================================================================================
 Asset Name:     lib_homepage_search
-Purpose:		    Asset code that creates the Tabbed Search Box on our home page at www.library.fullerton.edu.
-Created by:	  	Brenden Sparks @bsparks (on behalf of the Pollak LIbrary)
-Created:		    12/19/12
+Purpose:	Asset code that creates the Tabbed Search Box on our home page at www.library.fullerton.edu.
+Created by:	Brenden Sparks @bsparks (on behalf of the Pollak LIbrary)
+Created:	12/19/12
 Last Modified:		
-Code Reuse:		  Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www.library.fullerton.edu) when using this code.
+Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www.library.fullerton.edu) when using this code.
 ===========================================================================================*/			
 			
 <!-- begin tabbed box -->
