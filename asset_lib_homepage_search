@@ -11,13 +11,12 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 			
 			<div id="featured">
 				<ul id="featured-links">
-					<li><a href="#findBasic">Basic Search</a></li>
-					<li><a href="#findArticles">Articles</a></li>
-					<li><a href="#findDatabases">Databases</a></li>								
-					<li><a href="#findGuides">Guides</a></li>
-					<li><a href="#findBooks">Books &amp; eBooks</a></li>
-					<li><a href="#findJournals">Journals</a></li>						
-					<li><a href="#findWeb">Library Web</a></li>
+					<li><a href="#findBasic" onClick="_gaq.push(['_trackEvent', 'Tabbed Search Box Tabs', 'click', 'Basic Search Tab']);">Basic Search</a></li>
+					<li><a href="#findArticles" onClick="_gaq.push(['_trackEvent', 'Tabbed Search Box Tabs', 'click', 'Articles Tab']);">Articles</a></li>
+					<li><a href="#findDatabases" onClick="_gaq.push(['_trackEvent', 'Tabbed Search Box Tabs', 'click', 'Databases Tab']);">Databases</a></li>											<li><a href="#findGuides" onClick="_gaq.push(['_trackEvent', 'Tabbed Search Box Tabs', 'click', 'Guides Tab']);">Guides</a></li>
+					<li><a href="#findBooks" onClick="_gaq.push(['_trackEvent', 'Tabbed Search Box Tabs', 'click', 'Books Tab']);">Books &amp; eBooks</a></li>
+					<li><a href="#findJournals" onClick="_gaq.push(['_trackEvent', 'Tabbed Search Box Tabs', 'click', 'Journals Tab']);">Journals</a></li>						
+					<li><a href="#findWeb" onClick="_gaq.push(['_trackEvent', 'Tabbed Search Box Tags', 'click, 'Web Tab']);">Library Web</a></li>
 				</ul>			
 				<div id="featured-content">
 					<div id="findBasic">
