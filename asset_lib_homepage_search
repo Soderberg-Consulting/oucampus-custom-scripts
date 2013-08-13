@@ -27,7 +27,7 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 							<input type="hidden" name="action" value="search" />
 							<input type="hidden" name="facet.scholarly" value="" />
 -->
-							<select id="field" name="field">
+							<select onChange="_gaq.push(['_trackEvent', 'Tabbed Search Box', 'Basic Search Menu Selection', this.value);" id="field" name="field">
 								<option selected="selected" value="keyword">Keyword</option>
 								<option value="title">Title</option>
 								<option value="author">Author</option>
@@ -40,7 +40,7 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 					</div>
 					<div id="findArticles">
 						<form id="findArticlesForm" name="findArticlesForm" method="get" target="_blank" action="http://xerxes.calstate.edu/fullerton/metasearch/search" onsubmit="return checkSubject();" class="searchTabForm">
-						<select name="subject" id="subject">
+						<select onChange="_gaq.push(['_trackEvent', 'Tabbed Search Box', 'Articles Menu Selection', this.value);" name="subject" id="subject">
 						<option value="accounting-and-tax">Accounting and Tax</option>
 						<option value="african-american-studies">African American Studies</option>
 						<option value="american-studies">American Studies</option>
@@ -137,7 +137,7 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 					<input type="hidden" name="param_jumpToPage_value" value="" />
 					<!--'AQ.8.23.2007 - TD 1221 - Unicode Search-->
 					<input id="param_pattern_value" class="text-search" placeholder="Find journal titles" type="text" name="param_pattern_value" />
-					<select name="param_textSearchType_value">
+					<select onChange="_gaq.push(['_trackEvent', 'Tabbed Search Box', 'Journals Menu Selection', this.value);" name="param_textSearchType_value">
 						<option id="Begins" value="startsWith">Begins With</option>
 						<option id="Contains" value="contains">Contains</option>
 					</select>
@@ -194,7 +194,7 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 					<div id="findBooks">
 						<form action="http://xerxes.calstate.edu/fullerton/books/search" method="get" target="_blank" class="searchTabForm">
 						<label for="field">Search</label>
-						<select id="field" name="field">
+						<select onChange="_gaq.push(['_trackEvent', 'Tabbed Search Box', 'Books Menu Selection', this.value);" id="field" name="field">
 						<option value="keyword">all fields</option>
 						<option value="title">title</option>
 						<option value="author">author</option>
