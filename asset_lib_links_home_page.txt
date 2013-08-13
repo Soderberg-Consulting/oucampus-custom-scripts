@@ -9,7 +9,7 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 
 <form name="selecter" method="Post" action="//www.fullerton.edu/SearchRedirect/RedirectPage.aspx">
 <label for="select1" class="widgetTitle">Quick Links</label>
-<select id="select1" name="select1" class="qlink">
+<select onChange="_gaq.push(['_trackEvent', 'Quick Links', 'Selected', 'this.value);" id="select1" name="select1" class="qlink">
 	<option value="https://opac.fullerton.edu/patroninfo">Renew Books</option>
 	<option value="https://opac.fullerton.edu/patroninfo">My Library Record</option>
 	<option value="https://opac.fullerton.edu/search/p">Reserves Lookup</option>
