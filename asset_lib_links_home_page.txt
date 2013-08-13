@@ -1,0 +1,24 @@
+/*==========================================================================================
+Asset Name:     lib_links_home_page
+Purpose:	Asset code that creates the quick links on our home page at www.library.fullerton.edu.
+Created by:	Brenden Sparks @bsparks (on behalf of the Pollak LIbrary)
+Created:	12/19/12
+Last Modified:	08/13/13 by Colleen Greene (@colleengreene), Pollak Library	
+Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www.library.fullerton.edu) in your actual code when using it.
+===========================================================================================*/
+
+<form name="selecter" method="Post" action="//www.fullerton.edu/SearchRedirect/RedirectPage.aspx">
+<label for="select1" class="widgetTitle">Quick Links</label>
+<select id="select1" name="select1" class="qlink">
+	<option value="https://opac.fullerton.edu/patroninfo">Renew Books</option>
+	<option value="https://opac.fullerton.edu/patroninfo">My Library Record</option>
+	<option value="https://opac.fullerton.edu/search/p">Reserves Lookup</option>
+	<option value="//www.library.fullerton.edu/visiting/hours.php">Today's Events</option>
+	<option value="//www.library.fullerton.edu/services/library-instruction.php">Instruction Request Form</option>
+	<option value="//www.library.fullerton.edu/services/course-reserves.php">Course Reserves Request Form</option>
+	<option value="//www.library.fullerton.edu/services/research-consultations.php">Research Consultation Form</option>
+	<option value="//www.library.fullerton.edu/services/item-search-request.php">Item Search Request</option>
+	</select>
+	<input type="hidden" name="cf" value="quicklinks" />
+<button id="gobtn" type="submit">Go</button>
+</form>
