@@ -203,7 +203,7 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 						<label for="query">for</label>
 						<input id="query" name="query" type="text" size="32" value=""/>
 						<button type="submit">Search</button>
-						<p class="tabSearchLink"><a href="https://opac.fullerton.edu">Library Catalog</a></p>						
+						<p class="tabSearchLink"><a title="Library Catalog" href="https://opac.fullerton.edu" onClick="trackOutboundLink(this, 'Outbound Links', 'https://opac.fullerton.edu'); return false;" target="_blank">Library Catalog</a></p>						
 						</form>
 						<p class="tabHelpText" title="Searches books, ebooks, theses, and audio visual materials.">What gets searched?</p>
 					</div>
