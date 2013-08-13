@@ -157,7 +157,7 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 					<form id="formDatabaseSearch" method="get" action="http://www.library.fullerton.edu/php/dbaz6.php" class="searchTabForm" target="_blank">
 					<input type="text" id="searchstr" name="searchstr" placeholder="Database title or subject"/> 
 					<button type="submit">Search</button>
-					<p class="tabSearchLink"><a href="http://www.library.fullerton.edu/php/dbaz6.php">Browse A to Z</a></p>
+					<p class="tabSearchLink"><a title="Databases A to Z" href="http://www.library.fullerton.edu/php/dbaz6.php" onClick="trackOutboundLink(this, 'Outbound Links', 'http://www.library.fullerton.edu/php/dbaz6.php'); return false;" target="_blank">Browse A to Z</a></p>
 					</form>					
 					</div>
 
@@ -166,30 +166,30 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 						<div id="api_searchbox_iid2076">&nbsp;</div>
 						<script type="text/javascript" src="http://api.libguides.com/api_searchbox.php?iid=2076&amp;context=object&amp;format=js&amp;icon=off&amp;btntxt=Search+Help+Guides">&nbsp;</script>
 						<p class="tabSearchLink">
-							<a href="http://libraryguides.fullerton.edu/browse.php#a">A</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#b">B</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#c">C</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#d">D</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#e">E</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#f">F</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#g">G</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#h">H</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#i">I</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#j">J</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#k">K</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#l">L</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#m">M</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#n">N</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#o">O</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#p">P</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#r">R</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#s">S</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#t">T</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#u">U</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#v">V</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#w">W</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php#z">Z</a> | 
-							<a href="http://libraryguides.fullerton.edu/browse.php">Browse All</a>
+							<a title="Library Guides A" href="http://libraryguides.fullerton.edu/browse.php#a" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#a'); return false;" target="_blank">A</a> | 
+							<a title="Library Guides B" href="http://libraryguides.fullerton.edu/browse.php#b" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#b'); return false;" target="_blank">B</a> | 
+							<a title="Library Guides C" href="http://libraryguides.fullerton.edu/browse.php#c" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#c'); return false;" target="_blank">C</a> | 
+							<a title="Library Guides D" href="http://libraryguides.fullerton.edu/browse.php#d" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#d'); return false;" target="_blank">D</a> | 
+							<a title="Library Guides E" href="http://libraryguides.fullerton.edu/browse.php#e" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#e'); return false;" target="_blank">E</a> | 
+							<a title="Library Guides F" href="http://libraryguides.fullerton.edu/browse.php#f" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#f'); return false;" target="_blank">F</a> | 
+							<a title="Library Guides G" href="http://libraryguides.fullerton.edu/browse.php#g" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#g'); return false;" target="_blank">G</a> | 
+							<a title="Library Guides H" href="http://libraryguides.fullerton.edu/browse.php#h" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#h'); return false;" target="_blank">H</a> | 
+							<a title="Library Guides I" href="http://libraryguides.fullerton.edu/browse.php#i" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#i'); return false;" target="_blank">I</a> | 
+							<a title="Library Guides J" href="http://libraryguides.fullerton.edu/browse.php#j" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#j'); return false;" target="_blank">J</a> | 
+							<a title="Library Guides K" href="http://libraryguides.fullerton.edu/browse.php#k" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#k'); return false;" target="_blank">K</a> | 
+							<a title="Library Guides L" href="http://libraryguides.fullerton.edu/browse.php#l" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#l'); return false;" target="_blank">L</a> | 
+							<a title="Library Guides M" href="http://libraryguides.fullerton.edu/browse.php#m" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#m'); return false;" target="_blank">M</a> | 
+							<a title="Library Guides N" href="http://libraryguides.fullerton.edu/browse.php#n" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#n'); return false;" target="_blank">N</a> | 
+							<a title="Library Guides O" href="http://libraryguides.fullerton.edu/browse.php#o" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#o'); return false;" target="_blank">O</a> | 
+							<a title="Library Guides P" href="http://libraryguides.fullerton.edu/browse.php#p" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#p'); return false;" target="_blank">P</a> | 
+							<a title="Library Guides R" href="http://libraryguides.fullerton.edu/browse.php#r" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#r'); return false;" target="_blank">R</a> | 
+							<a title="Library Guides S" href="http://libraryguides.fullerton.edu/browse.php#s" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#s'); return false;" target="_blank">S</a> | 
+							<a title="Library Guides T" href="http://libraryguides.fullerton.edu/browse.php#t" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#t'); return false;" target="_blank">T</a> | 
+							<a title="Library Guides U" href="http://libraryguides.fullerton.edu/browse.php#u" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#u'); return false;" target="_blank">U</a> | 
+							<a title="Library Guides V" href="http://libraryguides.fullerton.edu/browse.php#v" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#v'); return false;" target="_blank">V</a> | 
+							<a title="Library Guides W" href="http://libraryguides.fullerton.edu/browse.php#w" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#w'); return false;" target="_blank">W</a> | 
+							<a title="Library Guides Z" href="http://libraryguides.fullerton.edu/browse.php#z" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#z'); return false;" target="_blank">Z</a> | 
+							<a title="Library Guides All" href="http://libraryguides.fullerton.edu/browse.php" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php'); return false;" target="_blank">Browse All</a>
 						</p>
 					</div>
 					<div id="findBooks">
