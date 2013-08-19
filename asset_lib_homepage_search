@@ -33,7 +33,7 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 								<option value="author">Author</option>
 								<option value="subject">Subject</option>
 							</select>
-							<input id="article_input" class="text-search" type="text" name="SearchStr" />
+							<input onClick="_gaq.push(['_trackEvent', 'Tabbed Search Box', 'Submit Search', 'Basic Search']);" id="article_input" class="text-search" type="text" name="SearchStr" />
 							<button type="submit">Search</button>							
 						</form>
 						<p class="tabHelpText" title="A selection of articles, books, ebooks, theses, and audio visual materials.">What gets searched?</p>
@@ -105,7 +105,7 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 						<option value="tesol">TESOL</option>
 						<option value="theatre">Theatre</option>
 						<option value="womens-studies">Women's Studies</option></select>
-						<input type="text" name="query" />
+						<input onClick="_gaq.push(['_trackEvent', 'Tabbed Search Box', 'Submit Search', 'Articles Search']);" type="text" name="query" />
 						<button type="submit">Search</button>						
 						</form>
 						<p class="tabHelpText" title="Searches multiple databases simultaneously within subjects.">What gets searched?</p>						
@@ -136,7 +136,7 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 					<input type="hidden" name="param_type_value" value="textSearch" />
 					<input type="hidden" name="param_jumpToPage_value" value="" />
 					<!--'AQ.8.23.2007 - TD 1221 - Unicode Search-->
-					<input id="param_pattern_value" class="text-search" placeholder="Find journal titles" type="text" name="param_pattern_value" />
+					<input onClick="_gaq.push(['_trackEvent', 'Tabbed Search Box', 'Submit Search', 'Journals Search']);" id="param_pattern_value" class="text-search" placeholder="Find journal titles" type="text" name="param_pattern_value" />
 					<select onChange="_gaq.push(['_trackEvent', 'Tabbed Search Box', 'Journals Menu Selection', this.value);" name="param_textSearchType_value">
 						<option id="Begins" value="startsWith">Begins With</option>
 						<option id="Contains" value="contains">Contains</option>
@@ -154,7 +154,7 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 					</div>
 					<div id="findDatabases">
 					<form id="formDatabaseSearch" method="get" action="http://www.library.fullerton.edu/php/dbaz6.php" class="searchTabForm" target="_blank">
-					<input type="text" id="searchstr" name="searchstr" placeholder="Database title or subject"/> 
+					<input onClick="_gaq.push(['_trackEvent', 'Tabbed Search Box', 'Submit Search', 'Databases Search']);" type="text" id="searchstr" name="searchstr" placeholder="Database title or subject"/> 
 					<button type="submit">Search</button>
 					<p class="tabSearchLink"><a title="Databases A to Z" href="http://www.library.fullerton.edu/php/dbaz6.php" onClick="trackOutboundLink(this, 'Outbound Links', 'http://www.library.fullerton.edu/php/dbaz6.php'); return false;" target="_blank">Browse A to Z</a></p>
 					</form>					
@@ -200,7 +200,7 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 						<option value="author">author</option>
 						<option value="subject">subject</option></select>
 						<label for="query">for</label>
-						<input id="query" name="query" type="text" size="32" value=""/>
+						<input onClick="_gaq.push(['_trackEvent', 'Tabbed Search Box', 'Submit Search', 'Books Search']);" id="query" name="query" type="text" size="32" value=""/>
 						<button type="submit">Search</button>
 						<p class="tabSearchLink"><a title="Library Catalog" href="https://opac.fullerton.edu" onClick="trackOutboundLink(this, 'Outbound Links', 'https://opac.fullerton.edu'); return false;" target="_blank">Library Catalog</a></p>						
 						</form>
@@ -209,7 +209,7 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 					<div id="findWeb">
 						<form action="http://libgoogle2011.fullerton.edu/search" method="get" target="_blank" class="searchTabForm">
 						<label class="hide" for="searchlibrary">Search Pollak Library</label>
-						<input id="searchlibrary" type="text" name="q" maxlength="255" alt="Search Pollak Library's website" />
+						<input onClick="_gaq.push(['_trackEvent', 'Tabbed Search Box', 'Submit Search', 'Web Search']);" id="searchlibrary" type="text" name="q" maxlength="255" alt="Search Pollak Library's website" />
 						<button id="search-button">Search</button>						 
 						</form>
 						<p class="tabHelpText" title="Searches the library website, library blog, subject guides, and our knowledge base.">What gets searched?</p>
