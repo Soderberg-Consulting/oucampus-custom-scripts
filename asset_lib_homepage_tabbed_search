@@ -149,16 +149,20 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 						<option ID="ISSN" value="ISSN" >ISSN</option>
 						<option ID="Subjects" value="Subjects" >Subjects</option>
 						</select> -->
-					
 					</form>
 					</div>
+					
+					
+					
 					<div id="findDatabases">
-					<form id="formDatabaseSearch" method="get" action="http://www.library.fullerton.edu/php/dbaz6.php" class="searchTabForm" target="_blank">
+					<form id="formDatabaseSearch" method="get" action="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=A" class="searchTabForm" target="_blank">
 					<input onClick="_gaq.push(['_trackEvent', 'Tabbed Search Box', 'Submit Search', 'Databases Search']);" type="text" id="searchstr" name="searchstr" placeholder="Database title or subject"/> 
 					<button type="submit">Search</button>
-					<p class="tabSearchLink"><a title="Databases A to Z" href="http://www.library.fullerton.edu/php/dbaz6.php" onClick="trackOutboundLink(this, 'Outbound Links', 'http://www.library.fullerton.edu/php/dbaz6.php'); return false;" target="_blank">Browse A to Z</a></p>
+					<p class="tabSearchLink"><a title="Databases A to Z" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=A" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=A'); return false;" target="_blank">Browse A to Z</a></p>
 					</form>					
 					</div>
+					
+					
 
 
 					<div id="findGuides">
