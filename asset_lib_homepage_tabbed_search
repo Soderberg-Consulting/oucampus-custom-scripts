@@ -39,7 +39,7 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 						<p class="tabHelpText" title="A selection of articles, books, ebooks, theses, and audio visual materials.">What gets searched?</p>
 					</div>
 					<div id="findArticles">
-						<form id="findArticlesForm" name="findArticlesForm" method="get" target="_blank" action="http://xerxes.calstate.edu/fullerton/metasearch/search" onsubmit="return checkSubject();" class="searchTabForm">
+						<form id="findArticlesForm" name="findArticlesForm" method="get" target="_blank" action="http://www.library.fullerton.edu/ASP/FindArticleRedirect.aspx" onsubmit="return checkSubject();" class="searchTabForm">
 						<select onChange="_gaq.push(['_trackEvent', 'Tabbed Search Box', 'Articles Menu Selection', this.value);" name="subject" id="subject">
 						<option value="accounting-and-tax">Accounting and Tax</option>
 						<option value="african-american-studies">African American Studies</option>
