@@ -1,12 +1,15 @@
 /*==========================================================================================
-Asset Name:     lib_homepage_search
-Purpose:	Asset code that creates the Tabbed Search Box on our home page at www.library.fullerton.edu.
+Asset Name:     lib_homepage_search_libguidesv2
+Purpose:	Asset code that creates the Tabbed Search Box on our home page at www.library.fullerton.edu.Swapping in search for LibGuides V2.
 Created by:	Brenden Sparks @bsparks (on behalf of the Pollak LIbrary)
 Created:	12/19/12
-Last Modified:	08/05/14 by Colleen Greene (@colleengreene), Pollak Library	
+Last Modified:	1202/14 by Colleen Greene (@colleengreene), Pollak Library	
 Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www.library.fullerton.edu) in your actual code when using it.
 ===========================================================================================*/			
-			
+		
+
+
+
 <!-- begin tabbed box -->
 			
 			<div id="featured">
@@ -150,6 +153,7 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 						<option ID="Subjects" value="Subjects" >Subjects</option>
 						</select> -->
 					</form>
+					<p class="tabHelpText" title="Searches a collection of our journals listed by title.">What gets searched?</p>
 					</div>
 					<div id="findDatabases">
 					<form id="formDatabaseSearch" method="get" action="http://xerxes.calstate.edu/fullerton/databases/alphabetical" class="searchTabForm" target="_blank">
@@ -157,7 +161,8 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 					<input onClick="_gaq.push(['_trackEvent', 'Tabbed Search Box', 'Submit Search', 'Databases Search']);" id="query" type="query" name="query" placeholder="Database title or subject" value="" /> 
 					<button type="submit">Search</button>
 					</form>
-					<p class="tabSearchLink">											
+					<p class="tabHelpText" title="Searches our collection of over 200 databases.">What gets searched?</p>
+					<p class="tabSecondaryLinks">											
 						<a title="Databases A" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=A" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=A'); return false;" target="_blank">A</a> | 
 						<a title="Databases B" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=B" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=B'); return false;" target="_blank">B</a> | 
 						<a title="Databases C" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=C" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=C'); return false;" target="_blank">C</a> | 
@@ -179,12 +184,14 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 						<a title="Databases U" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=U" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=U'); return false;" target="_blank">U</a> | 
 						<a title="Databases W" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=W" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=W'); return false;" target="_blank">W</a> |
 						<a title="Databases Z" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=Z" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=Z'); return false;" target="_blank">Z</a> | 
+						<a title="Databases Subject" href="http://xerxes.calstate.edu/fullerton/databases/" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/'); return false;" target="_blank">By Subject</a>
 					</p>
 					</div>
 					<div id="findGuides">
 						<div id="api_searchbox_iid2076">&nbsp;</div>
 						<script type="text/javascript" src="http://api.libguides.com/api_searchbox.php?iid=2076&amp;context=object&amp;format=js&amp;icon=off&amp;btntxt=Search+Help+Guides">&nbsp;</script>
-						<p class="tabSearchLink">
+						<p class="tabHelpText" title="Searches course, subject, and special topic guides.">What gets searched?</p>
+						<p class="tabSecondaryLinks">
 							<a title="Library Guides A" href="http://libraryguides.fullerton.edu/browse.php#a" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#a'); return false;" target="_blank">A</a> | 
 							<a title="Library Guides B" href="http://libraryguides.fullerton.edu/browse.php#b" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#b'); return false;" target="_blank">B</a> | 
 							<a title="Library Guides C" href="http://libraryguides.fullerton.edu/browse.php#c" onClick="trackOutboundLink(this, 'Outbound Links', 'http://libraryguides.fullerton.edu/browse.php#c'); return false;" target="_blank">C</a> | 
