@@ -245,3 +245,4 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 				</div><!-- /#featured-content -->
 			</div><!-- /#featured -->			
 			<!-- end tabbed box -->
+
