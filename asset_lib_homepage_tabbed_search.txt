@@ -149,6 +149,7 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 						<option ID="ISSN" value="ISSN" >ISSN</option>
 						<option ID="Subjects" value="Subjects" >Subjects</option>
 						</select> -->
+<<<<<<< Updated upstream:asset_lib_homepage_tabbed_search.txt
 					</form>
 					</div>
 					<div id="findDatabases">
@@ -180,6 +181,48 @@ Code Reuse:	Must attribute Brenden Sparks (@bsparks) and the Pollak Library (www
 						<a title="Databases W" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=W" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=W'); return false;" target="_blank">W</a> |
 						<a title="Databases Z" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=Z" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=Z'); return false;" target="_blank">Z</a> | 
 					</p>
+=======
+		
+
+			
+					</form>
+					</div>
+					<div id="findDatabases">
+					<form id="formDatabaseSearch" method="get" action="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=A" class="searchTabForm" target="_blank">
+					<input onClick="_gaq.push(['_trackEvent', 'Tabbed Search Box', 'Submit Search', 'Databases Search']);" type="text" id="searchstr" name="searchstr" placeholder="Database title or subject"/> 
+					<button type="submit">Search</button>
+					<p class="tabSearchLink"><a title="Databases A to Z" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=A" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=A'); return false;" target="_blank">Browse A to Z</a></p>
+					</form>	
+
+
+						<p class="tabSearchLink">
+							<a title=“Databases A" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=A" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=A'); return false;" target="_blank">A</a> | 
+							<a title=“Databases B" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=B" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=B'); return false;" target="_blank">B</a> | 
+							<a title=“Databases C" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=C" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=C'); return false;" target="_blank">C</a> | 
+							<a title=“Databases D" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=D" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=D'); return false;" target="_blank">D</a> | 
+							<a title=“Databases E" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=E" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=E'); return false;" target="_blank">E</a> | 
+							<a title=“Databases F" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=F" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=F'); return false;" target="_blank">F</a> | 
+							<a title=“Databases G" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=G" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=G'); return false;" target="_blank">G</a> | 
+							<a title=“Databases H" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=H" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=H'); return false;" target="_blank">H</a> | 
+							<a title=“Databases I" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=I" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=I'); return false;" target="_blank">I</a> | 
+							<a title="Databases J" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=J" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=J'); return false;" target="_blank">J</a> | 
+							<a title="Databases L" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=L" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=L'); return false;" target="_blank">L</a> | 
+							<a title="Databases M" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=M" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=M'); return false;" target="_blank">M</a> | 
+							<a title="Databases N" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=N" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=N'); return false;" target="_blank">N</a> | 
+							<a title="Databases O" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=O" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=O'); return false;" target="_blank">O</a> | 
+							<a title="Databases P" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=P" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=P'); return false;" target="_blank">P</a> | 
+							<a title="Databases R" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=R" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=R'); return false;" target="_blank">R</a> | 
+							<a title="Databases S" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=S" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=S'); return false;" target="_blank">S</a> | 
+							<a title="Databases T" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=T" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=T'); return false;" target="_blank">T</a> | 
+							<a title="Databases U" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=U" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=U'); return false;" target="_blank">U</a> | 
+							<a title="Databases W" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=W" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=W'); return false;" target="_blank">W</a> | 
+							<a title="Databases Z" href="http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=Z" onClick="trackOutboundLink(this, 'Outbound Links', 'http://xerxes.calstate.edu/fullerton/databases/alphabetical?alpha=Z'); return false;" target="_blank">Z</a>
+						</p>
+
+
+
+				
+>>>>>>> Stashed changes:asset_lib_homepage_tabbed_search
 					</div>
 					<div id="findGuides">
 						<div id="api_searchbox_iid2076">&nbsp;</div>
